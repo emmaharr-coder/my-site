@@ -36,7 +36,7 @@ export const profile = {
 
   /** One decision you're proud of, in a sentence. */
   decisionImProudOf:
-    "The decision I am most proud of is chosing to take advantage of Lerner's 4+1 program. I am able to graduate with a Master's degree in just an additional summer and fall semester after completing my undergraduate- earning 2 degrees in the same year!",
+    "I chose to take advantage of Lerner's 4+1 program. I am able to graduate with a Master's degree in just an additional summer and fall semester after completing my undergraduate- earning 2 degrees in the same year!",
 
   /**
    * Your photo. Replace public/photo.svg with a real photo of you
