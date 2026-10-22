@@ -31,12 +31,12 @@ export const profile = {
   funFacts: [
     "I have been to over 20 concerts and musical festivals in the last 8 years.",
     "I have never broken a bone.",
-    "I just started reading the ACOTAR series, and I'm hooked.",
+    "I just started reading the ACOTAR series, and I'm hooked!",
   ],
 
   /** One decision you're proud of, in a sentence. */
   decisionImProudOf:
-    "I chose to take advantage of Lerner's 4+1 program. I am able to graduate with a Master's degree in just an additional summer and fall semester after completing my undergraduate- earning 2 degrees in the same year!",
+    "The decision I am most proud of is chosing to take advantage of Lerner's 4+1 program. I am able to graduate with a Master's degree in just an additional summer and fall semester after completing my undergraduate- earning 2 degrees in the same year!",
 
   /**
    * Your photo. Replace public/photo.svg with a real photo of you
