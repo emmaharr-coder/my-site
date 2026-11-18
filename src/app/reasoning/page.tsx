@@ -45,10 +45,10 @@ export default async function ReasoningPage() {
         Lane 2 · live decision service
       </p>
       <h1 className="mt-3 text-4xl font-bold">My Reasoning &amp; Uncertainty Service</h1>
-      {/* TODO(yours): one sentence, your words, on what this service does. */}
+      {'This service checks whether an argument really follows, updates how likely a belief is after new evidence, and estimates the average payoff of a yes-or-no bet.'}
       <p className="mt-4 max-w-prose text-muted">
-        Below is the most recent problem my API solved, for each of the three problem types it
-        speaks. Every number on this page comes from the same live data my API answered with.
+        This service checks whether an argument really follows, updates how likely a belief
+        is after new evidence, and estimates the average payoff of a yes-or-no bet.
       </p>
 
       {/* ── Latest syllogism audit ─────────────────────────────────────── */}
@@ -73,7 +73,7 @@ export default async function ReasoningPage() {
                 <span className="text-muted"> ({syllogism.answer.fallacy})</span>
               )}
             </p>
-            {/* TODO(yours): rewrite this explanation so it sounds like you (Station 2.1). */}
+            {'The rule is "if we cut the price, then unit sales rise," and the observation is that unit sales rose. The verdict is invalid because that is affirming the consequent: sales can rise for other reasons.'}
             <p className="mt-2 max-w-prose text-sm text-muted">
               How the service decided: it ignores the story and reads only the shape of
               the argument. The rule promises that the if-part brings the then-part, so
@@ -107,8 +107,7 @@ export default async function ReasoningPage() {
                 {Number(plausibility.answer.posterior).toFixed(3)}
               </strong>
             </p>
-            {/* TODO(yours): one sentence a manager could read, e.g. what this
-                posterior means for the flagged case (Station 2.3). */}
+            {'The flagged transaction has about a 15.5% chance of being real fraud. The flag raised the odds from 2%, but most flags are still false alarms because ordinary transactions are so much more common.'}
           </div>
         ) : (
           <p className="mt-3 text-muted">No plausibility probe yet.</p>
@@ -139,8 +138,7 @@ export default async function ReasoningPage() {
                 {Number(bernoulli.answer.probabilityStatement).toFixed(2)}
               </span>
             </p>
-            {/* TODO(yours): one sentence on what the expected payoff does and
-                does not promise (Station 2.4). */}
+            {'An expected payoff of $16 is the average if this ad ran many times. It does not promise the next try earns $16, because that try is either a $120 click or a $40 miss.'}
           </div>
         ) : (
           <p className="mt-3 text-muted">No Bernoulli probe yet.</p>
